@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Berapa Kali Tim Indonesia Menjuarai Piala Thomas Cup?" />
+
+    <RadioGroup
+        android:id="@+id/rg_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/rb_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 Kali" />
+
+    <RadioButton
+        android:id="@+id/rb_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 Kali" />
+
+    <RadioButton
+        android:id="@+id/rb_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="13 Kali" />
+
+    <RadioButton
+        android:id="@+id/rb_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 Kali" />
+
+    <Button
+        android:id="@+id/buttonAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    </RadioGroup>
+</LinearLayout>
